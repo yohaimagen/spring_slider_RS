@@ -15,7 +15,7 @@ $\eta V = \tau - F(V, \psi) \sigma_{n}  $
 $F(V, \psi) = a \cdot arcsinh(\frac{V}{2V_{0}})$
 
 Where:
-- $V $ is the slider velocity $[\frac{m}{s}]$
+- $V$is the slider velocity $[\frac{m}{s}]$
 - $V_{P} $ is the plate velocity $[\frac{m}{s}]$
 - $V_0 $ is a reference velocity $[\frac{m}{s}]$
 - $\sigma_{n} $ is the effective normal stress $[Pa]$
