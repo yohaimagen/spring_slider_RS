@@ -12,6 +12,7 @@ The aim of the project is to simply learn and understand the PETSc parameters an
 ![image](./Picture1.png)
 
 $\eta V = \tau - F(V, \psi) \sigma_{n}  $
+
 $F(V, \psi) = a \cdot arcsinh(\frac{V}{2V_{0}})$
 
 Where:
