@@ -41,8 +41,8 @@ To use this model:
 1. First, install PETSc as described in the Tandem [docs](https://tandem.readthedocs.io/en/latest/getting-started/installation.html).
 2. Clone this repository:
    ```bash
-   $ git clone ...
-   $ cd ...
+   $ git clone https://github.com/yohaimagen/spring_slider_RS.git
+   $ cd spring_slider_RS
    ```
 3. Declare PETSc variables:
    ```bash
