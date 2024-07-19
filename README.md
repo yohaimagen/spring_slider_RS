@@ -67,12 +67,13 @@ with the appropriate values.
 where the `yield_point_init` paramter dictates the initial shear stress by:
 $\tau_{init} = k * y_{init}$
 
-Alternatively, you can use the simple notebook example provided to run the model and plot the results. To do so, you will need Python with numpy, matplotlib, and pandas.
+The file `.petscrc` contains PETSc TS object [parameters](https://petsc.org/release/manualpages/TS/TSSetFromOptions/) that can be changed. 
 
 ## example
 Runing the model with:
 ```bash
 ./app 1e-06 0.6 0.015 0.02 4500000.0 0.1 50000000.0 1e-09 1e-08 500000 10 15768000000 out.txt
+gnuplot plot.pg
 ```
 should create the following results:
-![image](./output.png)
+![image](./plot.png)
