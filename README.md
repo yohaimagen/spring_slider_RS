@@ -72,8 +72,8 @@ The file `.petscrc` contains PETSc TS object [parameters](https://petsc.org/rele
 ## example
 Runing the model with:
 ```bash
-./app 1e-06 0.6 0.015 0.02 4500000.0 0.1 50000000.0 1e-09 1e-08 500000 10 15768000000 out.txt
-gnuplot plot.pg
+$ ./app 1e-06 0.6 0.015 0.02 4500000.0 0.1 50000000.0 1e-09 1e-08 500000 10 15768000000 out.txt
+$ gnuplot plot.gp
 ```
 should create the following results:
 ![image](./plot.png)
